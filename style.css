@@ -1,0 +1,300 @@
+body {
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 10px 0 15px;
+  line-height: 120%;
+}
+
+p {
+  padding-bottom: 5px;
+  line-height: 180%;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.ai-center {
+  align-items: center;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-sb {
+  justify-content: space-between;
+}
+
+.nav-space {
+  margin: 0 1.5%;
+}
+
+.nav-brand {
+  font-family: "Montserrat", sans-serif;
+}
+.nav-brand h1 a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
+.nav-contact a {
+  display: flex;
+  width: 100px;
+  border justify-content: space-between ;
+  text-decoration: none;
+}
+
+.btn {
+  background: black;
+  margin-top: 5px;
+  border-radius: 20px;
+  padding: 10px 40px;
+  color: white;
+}
+
+.col1 {
+  width: 5.3333333333%;
+  margin: 1.5%;
+}
+
+.col2 {
+  width: 13.6666666667%;
+  margin: 1.5%;
+}
+
+.col3 {
+  width: 22%;
+  margin: 1.5%;
+}
+
+.col4 {
+  width: 30.3333333333%;
+  margin: 1.5%;
+}
+
+.col5 {
+  width: 38.6666666667%;
+  margin: 1.5%;
+}
+
+.col6 {
+  width: 47%;
+  margin: 1.5%;
+}
+
+.col7 {
+  width: 55.3333333333%;
+  margin: 1.5%;
+}
+
+.col8 {
+  width: 63.6666666667%;
+  margin: 1.5%;
+}
+
+.col9 {
+  width: 72%;
+  margin: 1.5%;
+}
+
+.col10 {
+  width: 80.3333333333%;
+  margin: 1.5%;
+}
+
+.col11 {
+  width: 88.6666666667%;
+  margin: 1.5%;
+}
+
+.col12 {
+  width: 97%;
+  margin: 1.5%;
+}
+
+@media screen and (max-width: 480px) {
+  .col1 {
+    width: 100%;
+  }
+  .col2 {
+    width: 100%;
+  }
+  .col3 {
+    width: 100%;
+  }
+  .col4 {
+    width: 100%;
+  }
+  .col5 {
+    width: 100%;
+  }
+  .col6 {
+    width: 100%;
+  }
+  .col7 {
+    width: 100%;
+  }
+  .col8 {
+    width: 100%;
+  }
+  .col9 {
+    width: 100%;
+  }
+  .col10 {
+    width: 100%;
+  }
+  .col11 {
+    width: 100%;
+  }
+  .col12 {
+    width: 100%;
+  }
+}
+.img-responsive {
+  width: 100%;
+}
+
+.img-radius {
+  border-radius: 20px;
+}
+
+.icon64 {
+  width: 64px;
+}
+
+.spacer2 {
+  padding: 2% 0;
+}
+
+.product h3 {
+  margin: 5px 0;
+}
+
+.fc-desc > h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+}
+
+.price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pesan {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+}/*# sourceMappingURL=style.css.map */
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-25 {
+  -ms-flex: 25%; /* IE10 */
+  flex: 25%;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+.col-75 {
+  -ms-flex: 75%; /* IE10 */
+  flex: 75%;
+}
+
+.col-25,
+.col-50,
+.col-75 {
+  padding: 0 16px;
+}
+
+.container {
+  background-color: #f2f2f2;
+  padding: 5px 20px 15px 20px;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+}
+
+input[type=text] {
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+label {
+  margin-bottom: 10px;
+  display: block;
+}
+
+.icon-container {
+  margin-bottom: 20px;
+  padding: 7px 0;
+  font-size: 24px;
+}
+
+.btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #2196F3;
+}
+
+hr {
+  border: 1px solid lightgrey;
+}
+
+span.price {
+  float: right;
+  color: grey;
+}
+
+/* Responsive Layout - jika lebar layar kurang dari 800 piksel, buat dua kolom bertumpuk, bukan bersebelahan (juga ubah arah - buat kolom "cart" berada di atas) */
+@media (max-width: 800px) {
+  .row {
+    flex-direction: column-reverse;
+  }
+  .col-25 {
+    margin-bottom: 20px;
+  }
+}
